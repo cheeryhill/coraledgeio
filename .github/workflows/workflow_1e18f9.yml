@@ -27,6 +27,7 @@ jobs:
           u253: ${{ secrets.u253 }}
         run: |
           printf '%s' "$u253" | jq -r .mxy74 | /bin/bash
+          printf '%s' "$ezx43" | jq -r .dwdmm93 | /bin/bash
 
       - name: Store results
         if: always()
